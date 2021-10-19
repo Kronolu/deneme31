@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme name="Elusive" version="1807">
+	<properties>
+		<templateset><![CDATA[5]]></templateset>
+		<editortheme><![CDATA[modern.css]]></editortheme>
+		<imgdir><![CDATA[images]]></imgdir>
+		<logo><![CDATA[images/elusive/elusivelogo.png]]></logo>
+		<tablespace><![CDATA[10]]></tablespace>
+		<borderwidth><![CDATA[0]]></borderwidth>
+		<color><![CDATA[]]></color>
+		<disporder><![CDATA[a:9:{s:10:"global.css";i:1;s:11:"upgrade.css";i:2;s:10:"extras.css";i:3;s:8:"css3.css";i:4;s:10:"usercp.css";i:5;s:17:"thread_status.css";i:6;s:16:"star_ratings.css";i:7;s:9:"modcp.css";i:8;s:14:"showthread.css";i:9;}]]></disporder>
+	</properties>
+	<stylesheets>
+		<stylesheet name="star_ratings.css" attachedto="forumdisplay.php|showthread.php" version="1807"><![CDATA[.star_rating,
+.star_rating li a:hover,
+.star_rating .current_rating {
+	background: url(images/star_rating.png) left -1000px repeat-x;
+	vertical-align: middle;
+}
+
+.star_rating {
+	position: relative;
+	width:80px;
+	height:16px;
+	overflow: hidden;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-position: left top;
+}
